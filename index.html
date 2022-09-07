@@ -225,20 +225,107 @@
                 join our comunnity
         ------------------------------------------------>
         <section class="container container-top mb-5"> 
-          <div class=" col-md-12 d-flex align-items-center register rounded bg-primary bg-primary-size">
-            <div class="p-2 w-75 col-md-12 ps-5 register-align text-white col-sm-12">
+          <div class=" d-flex align-items-center register rounded bg-primary bg-primary-size">
+            <div class="p-2 w-75 col-12 col-md-6 ps-5 register-align text-white">
               <h1>Ready to join?</h1>
               <p>It is a long established fact that a reader will be distracted by <br> the 
                 readable content of a page when looking at its layout</p>
             </div>
-            <div class="p-2 flex-shrink-1 rg-btn col-sm-12 col-md-11">
-              <button class="btn  fw-semibold text-primary bg-white ps-4 pe-4">Register Now</button>
+            <div class="p-2 flex-shrink-1 rg-btn col-12 col-md-6">
+              <button class="btn  fw-semibold text-primary bg-white ps-4 pe-4" data-bs-toggle="modal" data-bs-target="#addmodal" >Register Now</button>
             </div>
           </div>
         </section>
+        <div class="modal" id="addmodal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Registar Now</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
         <!---------------------------------------------
                 join our comunnity section end
         ------------------------------------------------>
+        <!------------------------------------------------
+          Meet Our Successfull Students
+        --------------------------------------------->
+          <section class="container mb-5">
+            <div class="meet">
+              <h1 class="fw-bold fs-1">Meet Our Successfull <br> Students</h1>
+              <p class="text-secondary">It is a long established fact that a  reader will be distracted by the <br>
+                readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="row  row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+              <div class="col ">
+                <div class="card h-100">
+                  <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Awlad Hossain</h5>
+                    <p class="card-text text-secondary ">UIUX Designer</p>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Jannatul Islam</h5>
+                    <p class="card-text text-secondary">Motion Design</p>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title ">Imran Hossain</h5>
+                    <p class=" text-secondary ">Graphic Designer</p>
+                  </div>
+                  
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Nishi Akter</h5>
+                    <p class=" text-secondary ">Web Developer</p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <!------------------------------------------------
+          end Our Successfull Students
+        --------------------------------------------->
 
 
     </main>
