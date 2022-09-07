@@ -18,6 +18,10 @@
 .course-img{
     height: 150px;
 }
+
+.bg-color{
+    background-color:#F4FAFD ;
+}
 @media only screen and (max-width: 600px){
     .media{
         display: flex;
