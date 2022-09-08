@@ -28,6 +28,9 @@
 .bg-primary-size{
     height: 300px;
 }
+.height{
+    height: 400px;
+}
 @media only screen and (max-width: 600px){
     .media{
         display: flex;
